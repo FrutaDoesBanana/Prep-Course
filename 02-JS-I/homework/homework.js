@@ -66,7 +66,7 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(x == y){
-    return true:
+    return true;
   } else {
     return false;
   }
@@ -188,28 +188,28 @@ function esPositivo(numero) {
   if(esPositivo > 0) {
     return("es positivo")
   } else if(esPositivo < 0) {
-    return("es negativo") {
+    return("es negativo") 
     } else {
       return("false");
     }
   }
-}
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código: 
-  var string = "hola q tal!" {
+  var string = "hola q tal!" 
     return string;
-  }
+  
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinarNombres = nombre + " " + apellido;
-  return combinarNombres;
+  var Nombre = nombre + " " + apellido;
+  return Nombre;
   
 }
 
